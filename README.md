@@ -5,7 +5,7 @@ Um portfólio moderno e responsivo para mostrar meus projetos. Este Portfolio fi
 ##  Quick Start
 
 ### Pré-requisitos
-- Node.js 18+ ([Download](https://nodejs.org/))
+- Node.js 18+ 
 - npm ou yarn
 
 ### Instalação
