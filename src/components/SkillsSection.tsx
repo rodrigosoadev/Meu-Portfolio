@@ -4,14 +4,14 @@ import SectionLabel from "./SectionLabel";
 
 
 const skills = [
-  { name: "Java", color: "#f89820" },
-  { name: "SQL", color: "#00758f" },
-  { name: "JavaScript", color: "#f7df1e" },
-  { name: "TypeScript", color: "#3178c6" },
-  { name: "React", color: "#61dafb" },
-  { name: "Node.js", color: "#339933" },
-  { name: "Git", color: "#f05032" },
-  { name: "HTML", color: "#e34f26" },
+  { name: "Java", short: "Java", color: "#f89820" },
+  { name: "SQL", short: "SQL", color: "#00758f" },
+  { name: "JavaScript", short: "JS", color: "#f7df1e" },
+  { name: "TypeScript", short: "TS", color: "#3178c6" },
+  { name: "React", short: "Re", color: "#61dafb" },
+  { name: "Node.js", short: "Nd", color: "#339933" },
+  { name: "Git", short: "Git", color: "#f05032" },
+  { name: "HTML", short: "Ht", color: "#e34f26" },
 ];
 
 const SkillsSection = () => {
@@ -57,16 +57,16 @@ const SkillsSection = () => {
               >
                 <div className="flex flex-col items-center">
                   <motion.div
-                    whileHover={{ rotate: 360, scale: 1.1 }}
-                    transition={{ duration: 0.6 }}
-                    className="w-16 h-16 rounded-full flex items-center justify-center mb-4 ring-2 ring-transparent group-hover:ring-current"
+                    whileHover={{ y: -4, scale: 1.05 }}
+                    transition={{ duration: 0.3 }}
+                    className="w-16 h-16 rounded-md flex items-center justify-center mb-4 ring-2 ring-transparent group-hover:ring-current"
                     style={{
                       backgroundColor: `${skill.color}20`,
                       color: skill.color,
                     }}
                   >
-                    <span className="text-2xl font-bold">
-                      {skill.name.slice(0, 2)}
+                    <span className="text-xl font-mono font-bold">
+                      {skill.short}
                     </span>
                   </motion.div>
                   <h3 className="text-lg font-bold text-foreground text-center">

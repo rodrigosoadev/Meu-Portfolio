@@ -111,16 +111,27 @@ const HeroSection = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="mt-14 flex items-center gap-3 text-sm text-muted-foreground"
+            className="mt-14 max-w-md rounded-lg border border-border bg-card/80 backdrop-blur-sm shadow-lg overflow-hidden"
           >
-            <span className="font-mono text-xs tracking-widest uppercase">
-              Estudando
-            </span>
-            <span className="h-px w-8 bg-border" />
-            <span>Java · Spring Boot · API REST · SQL</span>
+            <div className="flex items-center gap-1.5 px-4 py-2.5 border-b border-border bg-muted/40">
+              <span className="w-2.5 h-2.5 rounded-full bg-destructive/70" />
+              <span className="w-2.5 h-2.5 rounded-full bg-primary/70" />
+              <span className="w-2.5 h-2.5 rounded-full bg-accent/70" />
+              <span className="ml-2 text-[11px] font-mono text-muted-foreground">
+                status.java
+              </span>
+            </div>
+            <div className="px-4 py-3 font-mono text-sm space-y-1">
+              <p className="text-muted-foreground">
+                <span className="text-accent">$</span> stack --atual
+              </p>
+              <p className="text-foreground/90 pl-4">
+                Java · Spring Boot · API REST · SQL
+              </p>
+            </div>
           </motion.div>
         </div>
       </div>
