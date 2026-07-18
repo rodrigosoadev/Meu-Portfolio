@@ -19,14 +19,14 @@ const AboutSection = () => {
             <Card className="border-none shadow-none bg-transparent">
               <CardContent className="p-0">
                 <p className="text-lg mb-6">
-                  Nascido e criado no <strong>Nordeste brasileiro</strong>, trago em meu código a resiliência 
-                  e criatividade da minha região. Como desenvolvedor web em formação, estou construindo uma base 
-                  sólida em tecnologias modernas que permitem criar experiências digitais impactantes.
+                  Nascido e criado no <strong>Nordeste brasileiro</strong>, trago em meu código a resiliência
+                  e criatividade da minha região. Como desenvolvedor back-end em formação, estou construindo uma base
+                  sólida em lógica, orientação a objetos e arquitetura de sistemas.
                 </p>
-                
+
                 <p className="text-lg mb-6">
-                  Atualmente foco meus estudos em JavaScript e TypeScript para aplicações web modernas. 
-                  Busco constantemente aprender e aplicar as melhores práticas de desenvolvimento, 
+                  Atualmente foco meus estudos em Java, com ênfase em desenvolvimento back-end.
+                  Busco constantemente aprender e aplicar as melhores práticas de desenvolvimento,
                   combinando a tradição da minha terra com a inovação do mundo digital.
                 </p>
                 

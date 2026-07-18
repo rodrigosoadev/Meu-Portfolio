@@ -44,7 +44,7 @@ const ContactSection = () => {
                   </h3>
                   
                   <p className="text-gray-700 mb-6">
-                    Estou disponível para projetos, colaborações ou simplesmente trocar ideias sobre desenvolvimento web. 
+                    Estou disponível para projetos, colaborações ou simplesmente trocar ideias sobre desenvolvimento back-end.
                     Entre em contato através dos canais abaixo:
                   </p>
                   
