@@ -34,7 +34,7 @@ const Footer = () => {
               Rodrigo Soares
             </h3>
             <p className="text-sm mt-1 opacity-80 font-mono tracking-wider uppercase text-[11px]">
-              Desenvolvedor Web · Nordeste Brasileiro
+              Desenvolvedor Back-end · Nordeste Brasileiro
             </p>
           </div>
 

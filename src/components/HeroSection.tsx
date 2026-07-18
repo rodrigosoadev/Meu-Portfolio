@@ -45,7 +45,7 @@ const HeroSection = () => {
             className="flex items-center gap-2 mb-4 text-xs font-mono tracking-[0.25em] uppercase text-muted-foreground"
           >
             <MapPin size={12} className="text-primary" />
-            Desenvolvedor Web · Nordeste, Brasil
+            Desenvolvedor Back-end · Nordeste, Brasil
           </motion.div>
 
           {/* Nome em duas linhas com peso + itálico */}
@@ -68,10 +68,9 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-2xl text-foreground/85 mb-4 max-w-2xl font-light leading-relaxed"
           >
-            Criando soluções modernas com{" "}
-            <span className="font-medium text-primary">JavaScript</span> e{" "}
-            <span className="font-medium text-primary">TypeScript</span>, com foco
-            em interfaces intuitivas e experiências digitais com alma.
+            Construindo sistemas sólidos com{" "}
+            <span className="font-medium text-primary">Java</span>, com foco
+            em lógica, arquitetura e desenvolvimento back-end.
           </motion.p>
 
           <motion.div
@@ -121,7 +120,7 @@ const HeroSection = () => {
               Estudando
             </span>
             <span className="h-px w-8 bg-border" />
-            <span>React · Vite · API REST · MongoDB</span>
+            <span>Java · Spring Boot · API REST · SQL</span>
           </motion.div>
         </div>
       </div>

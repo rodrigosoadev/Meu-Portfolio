@@ -4,14 +4,14 @@ import SectionLabel from "./SectionLabel";
 
 
 const skills = [
+  { name: "Java", color: "#f89820" },
+  { name: "SQL", color: "#00758f" },
   { name: "JavaScript", color: "#f7df1e" },
   { name: "TypeScript", color: "#3178c6" },
-  { name: "HTML", color: "#e34f26" },
-  { name: "CSS", color: "#1572b6" },
   { name: "React", color: "#61dafb" },
   { name: "Node.js", color: "#339933" },
   { name: "Git", color: "#f05032" },
-  { name: "UI/UX", color: "#ff7eb6" },
+  { name: "HTML", color: "#e34f26" },
 ];
 
 const SkillsSection = () => {
